@@ -1,0 +1,214 @@
+System: uname_result(system='Linux', node='MertsPC', release='6.18.40.1-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026', machine='x86_64')  Threads 8
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
+numpy 2.2.0  scipy 1.14.1  h5py 3.12.1
+Date: Thu Oct 15 00:41:17 2026
+PySCF version 2.13.1
+PySCF path  /home/mert/.local/lib/python3.10/site-packages/pyscf/__init__.py
+CUDA Environment
+    CuPy 14.1.1
+    CUDA Path None
+    CUDA Build Version 12090
+    CUDA Driver Version 13010
+    CUDA Runtime Version 12090
+CUDA toolkit
+    cuSolver (11, 6, 1)
+    cuBLAS 120405
+    cuTENSOR None
+Device info
+    Device name b'NVIDIA GeForce RTX 3050 6GB Laptop GPU'
+    Device global memory 6.00 GB
+    CuPy memory fraction 0.9
+    Num. Devices 1
+GPU4PySCF 1.7.1
+GPU4PySCF path  /home/mert/.local/lib/python3.10/site-packages/gpu4pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 6
+[INPUT] num. electrons = 21
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 1
+[INPUT] symmetry True subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C      0.751851000000  -0.378235000000   0.000000000000 AA    1.420792476480  -0.714760560725   0.000000000000 Bohr   0.0
+[INPUT]  2 C      0.000000000000   0.745928000000   0.000000000000 AA    0.000000000000   1.409599628645   0.000000000000 Bohr   0.0
+[INPUT]  3 C     -0.751907000000  -0.378151000000   0.000000000000 AA   -1.420898301143  -0.714601823730   0.000000000000 Bohr   0.0
+[INPUT]  4 H      1.694209000000  -0.880972000000   0.000000000000 AA    3.201591007773  -1.664795803410   0.000000000000 Bohr   0.0
+[INPUT]  5 H      0.000140000000   1.825086000000   0.000000000000 AA    0.000264561657   3.448912693778   0.000000000000 Bohr   0.0
+[INPUT]  6 H     -1.694012000000  -0.881365000000   0.000000000000 AA   -3.201218731727  -1.665538465777   0.000000000000 Bohr   0.0
+
+nuclear repulsion = 58.1905815156535
+point group symmetry = Cs
+symmetry origin: [8.99869583e-08 8.99869584e-08 0.00000000e+00]
+symmetry axis x: [-1.91795349e-04  9.99999982e-01  0.00000000e+00]
+symmetry axis y: [9.99999982e-01 1.91795349e-04 0.00000000e+00]
+symmetry axis z: [0. 0. 1.]
+num. orbitals of irrep A' = 15
+num. orbitals of irrep A" = 3
+number of shells = 12
+number of NR pGTOs = 108
+number of NR cGTOs = 18
+basis = sto-6g
+ecp = {}
+CPU time:        11.17
+
+
+******** <class 'pyscf.scf.hf_symm.SymAdaptedROHF'> ********
+method = SymAdaptedROHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpueip8s_4
+max_memory 4000 MB (current use 511 MB)
+num. doubly occ = 10  num. singly occ = 1
+Freeze 0 electrons in irreps []
+    21 free electrons in irreps A' A"
+Set gradient conv threshold to 3.16228e-05
+init E= -115.76006930588
+HOMO (A") = 0.126832454990844  LUMO (A") = 0.193975362935427
+cycle= 1 E= -114.814247738413  delta_E= 0.946  |g|= 0.252  |ddm|= 2.41
+HOMO (A") = 0.121156537100379  LUMO (A") = 0.304960308457467
+cycle= 2 E= -114.838251545437  delta_E= -0.024  |g|= 0.084  |ddm|= 0.315
+HOMO (A") = 0.0943830393382417  LUMO (A") = 0.314216788119945
+cycle= 3 E= -114.840609807588  delta_E= -0.00236  |g|= 0.0307  |ddm|= 0.0983
+HOMO (A") = 0.0976440232798221  LUMO (A") = 0.308017800711222
+cycle= 4 E= -114.840938650233  delta_E= -0.000329  |g|= 0.00211  |ddm|= 0.0354
+HOMO (A") = 0.09884345819546  LUMO (A") = 0.309366796363891
+cycle= 5 E= -114.840941833718  delta_E= -3.18e-06  |g|= 0.000855  |ddm|= 0.00334
+HOMO (A") = 0.0987289343828907  LUMO (A") = 0.309288048446859
+cycle= 6 E= -114.840942455181  delta_E= -6.21e-07  |g|= 0.000226  |ddm|= 0.00177
+HOMO (A") = 0.0987173185541685  LUMO (A") = 0.309284458481228
+cycle= 7 E= -114.84094248597  delta_E= -3.08e-08  |g|= 0.000156  |ddm|= 0.000486
+HOMO (A") = 0.098713669372516  LUMO (A") = 0.309285380211854
+cycle= 8 E= -114.840942499593  delta_E= -1.36e-08  |g|= 2.78e-05  |ddm|= 0.000219
+HOMO (A") = 0.0987139833751749  LUMO (A") = 0.309286143607741
+cycle= 9 E= -114.840942503043  delta_E= -3.45e-09  |g|= 3.32e-05  |ddm|= 0.000154
+HOMO (A") = 0.098713884354857  LUMO (A") = 0.309285940783526
+cycle= 10 E= -114.840942498584  delta_E= 4.46e-09  |g|= 2.75e-05  |ddm|= 0.0002
+HOMO (A") = 0.0987139447532552  LUMO (A") = 0.309286330229732
+cycle= 11 E= -114.840942489152  delta_E= 9.43e-09  |g|= 2.03e-06  |ddm|= 0.000885
+HOMO (A") = 0.0987139050909981  LUMO (A") = 0.309286129535601
+cycle= 12 E= -114.840942489118  delta_E= 3.44e-11  |g|= 2.94e-07  |ddm|= 5.65e-05
+HOMO (A") = 0.098713849423324  LUMO (A") = 0.30928619543082
+Extra cycle  E= -114.840942489118  delta_E= 1.42e-13  |g|= 9.61e-08  |ddm|= 3.97e-07
+converged SCF energy = -114.840942489118
+**** SCF Summaries ****
+Total Energy =                        -114.840942489117822
+Nuclear Repulsion Energy =              58.190581515653541
+One-electron Energy =                 -269.967085496613379
+Two-electron Energy =                   96.935561491842009
+Wave-function symmetry = A"
+occupancy for each irrep:     A'   A"
+double occ                     9    1
+single occ                     0    1
+**** MO energy ****
+                          Roothaan           | alpha              | beta
+MO #1   (A'  #1 ) energy= -11.22928115029    | -11.2292829702108  | -11.2292793303692  occ= 2
+MO #2   (A'  #2 ) energy= -11.1373207516661  | -11.1437058564188  | -11.1309356469135  occ= 2
+MO #3   (A'  #3 ) energy= -11.137160721098   | -11.1437488517424  | -11.1305725904536  occ= 2
+MO #4   (A'  #4 ) energy= -1.10487450257051  | -1.11929466255831  | -1.09045434258271  occ= 2
+MO #5   (A'  #5 ) energy= -0.734847574072662 | -0.757979486245778 | -0.711715661899552 occ= 2
+MO #6   (A'  #6 ) energy= -0.729385710200564 | -0.734681020212245 | -0.724090400188883 occ= 2
+MO #7   (A'  #7 ) energy= -0.639428341985614 | -0.646842335777444 | -0.632014348193798 occ= 2
+MO #8   (A'  #8 ) energy= -0.465580581679654 | -0.471332597731301 | -0.459828565628006 occ= 2
+MO #9   (A"  #1 ) energy= -0.418790183509528 | -0.473679272272952 | -0.363901094749774 occ= 2
+MO #10  (A'  #9 ) energy= -0.373886970662687 | -0.380520715861996 | -0.367253225463373 occ= 2
+MO #11  (A"  #2 ) energy= 0.098713849423324  | -0.154849476602288 | 0.352277175450326  occ= 1
+MO #12  (A"  #3 ) energy= 0.30928619543082   | 0.268716646025401  | 0.349855744838519  occ= 0
+MO #13  (A'  #10) energy= 0.525135948367848  | 0.506247698349698  | 0.544024198385998  occ= 0
+MO #14  (A'  #11) energy= 0.61318894608541   | 0.605646242210576  | 0.620731649960245  occ= 0
+MO #15  (A'  #12) energy= 0.625032821443148  | 0.611930242206006  | 0.638135400680289  occ= 0
+MO #16  (A'  #13) energy= 0.65651132205086   | 0.648989061740966  | 0.664033582360748  occ= 0
+MO #17  (A'  #14) energy= 1.03586237342705   | 1.02661769792406   | 1.04510704893005   occ= 0
+MO #18  (A'  #15) energy= 1.14471383702511   | 1.1401736834897    | 1.14925399056051   occ= 0
+ ** Mulliken pop on meta-lowdin orthogonal AOs  **
+ ** Mulliken pop  **
+pop of  0 C 1s            1.99995
+pop of  0 C 2s            1.01672
+pop of  0 C 2px           0.95234
+pop of  0 C 2py           1.04675
+pop of  0 C 2pz           1.09510
+pop of  1 C 1s            1.99995
+pop of  1 C 2s            1.02808
+pop of  1 C 2px           1.12432
+pop of  1 C 2py           0.99942
+pop of  1 C 2pz           0.80964
+pop of  2 C 1s            1.99995
+pop of  2 C 2s            1.01670
+pop of  2 C 2px           0.95227
+pop of  2 C 2py           1.04668
+pop of  2 C 2pz           1.09526
+pop of  3 H 1s            0.93840
+pop of  4 H 1s            0.94007
+pop of  5 H 1s            0.93840
+ ** Mulliken atomic charges  **
+charge of    0C =     -0.11087
+charge of    1C =      0.03859
+charge of    2C =     -0.11086
+charge of    3H =      0.06160
+charge of    4H =      0.05993
+charge of    5H =      0.06160
+Dipole moment(X, Y, Z, Debye):  0.00018,  0.62219,  0.00000
+
+******** <class 'pyscf.mcscf.mc1step_symm.SymAdaptedCASSCF'> ********
+CAS (2e+1e, 3o), ncore = 9, nvir = 6
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpueip8s_4
+max_memory 4000 MB (current use 511 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1_symm.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CI wfn symmetry = None
+Symmetries of active orbitals: A" A" A"
+Active space CI wfn symmetry = A"
+CASCI E = -114.891922684688  S^2 = 0.7500000
+Set conv_tol_grad to 0.000316228
+macro iter   1 (  9 JK    4 micro), CASSCF E = -114.892296755642  dE = -3.74070953e-04  S^2 = 0.7500000
+               |grad[o]|=0.0301  |grad[c]|=0.000457  |ddm|=0.0189  |maxRot[o]|=0.0097
+macro iter   2 (  3 JK    1 micro), CASSCF E = -114.892296757226  dE = -1.58438240e-09  S^2 = 0.7500000
+               |grad[o]|=6.09e-05  |grad[c]|=9.92e-06  |ddm|=1.89e-05  |maxRot[o]|=1.61e-05
+1-step CASSCF converged in   2 macro ( 12 JK   5 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.87763892 0.99999995 0.12236113]
+CASSCF energy = -114.892296757226
+CASCI E = -114.892296757226  E(CI) = -2.25003932221064  S^2 = 0.7500000

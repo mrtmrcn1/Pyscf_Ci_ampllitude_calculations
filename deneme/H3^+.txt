@@ -1,0 +1,95 @@
+System: uname_result(system='Linux', node='MertsPC', release='6.18.40.1-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026', machine='x86_64')  Threads 8
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
+numpy 2.2.0  scipy 1.14.1  h5py 3.12.1
+Date: Thu Oct  8 12:59:00 2026
+PySCF version 2.13.1
+PySCF path  /home/mert/.local/lib/python3.10/site-packages/pyscf/__init__.py
+CUDA Environment
+    CuPy 14.1.1
+    CUDA Path None
+    CUDA Build Version 12090
+    CUDA Driver Version 13010
+    CUDA Runtime Version 12090
+CUDA toolkit
+    cuSolver (11, 6, 1)
+    cuBLAS 120405
+    cuTENSOR None
+Device info
+    Device name b'NVIDIA GeForce RTX 3050 6GB Laptop GPU'
+    Device global memory 6.00 GB
+    CuPy memory fraction 0.9
+    Num. Devices 1
+GPU4PySCF 1.7.1
+GPU4PySCF path  /home/mert/.local/lib/python3.10/site-packages/gpu4pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 3
+[INPUT] num. electrons = 2
+[INPUT] charge = 1
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 H      0.000000000000   0.490747730000   0.000000000000 AA    0.000000000000   0.927378805952   0.000000000000 Bohr   0.0
+[INPUT]  2 H     -0.425000000000  -0.245373860000   0.000000000000 AA   -0.803133602940  -0.463689393527   0.000000000000 Bohr   0.0
+[INPUT]  3 H      0.425000000000  -0.245373860000   0.000000000000 AA    0.803133602940  -0.463689393527   0.000000000000 Bohr   0.0
+
+nuclear repulsion = 1.86768427791608
+number of shells = 3
+number of NR pGTOs = 18
+number of NR cGTOs = 3
+basis = sto-6g
+ecp = {}
+CPU time:         8.70
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp3po1os3s
+max_memory 4000 MB (current use 512 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -1.38397193662246
+  HOMO = -0.792741761194745  LUMO = 0.421229311715421
+cycle= 1 E= -1.23911836784766  delta_E= 0.145  |g|= 2.65e-10  |ddm|= 1.19
+  HOMO = -1.24364569458245  LUMO = -0.015840672122045
+cycle= 2 E= -1.23911836784766  delta_E= 4.44e-16  |g|= 3.65e-11  |ddm|= 3.23e-10
+  HOMO = -1.24364569458245  LUMO = -0.0158406721413327
+Extra cycle  E= -1.23911836784766  delta_E= -4.44e-16  |g|= 5.04e-12  |ddm|= 4.45e-11
+converged SCF energy = -1.23911836784766
+**** SCF Summaries ****
+Total Energy =                          -1.239118367847656
+Nuclear Repulsion Energy =               1.867684277916085
+One-electron Energy =                   -3.726313902362587
+Two-electron Energy =                    0.619511256598846
+**** MO energy ****
+MO #1   energy= -1.24364569458245  occ= 2
+MO #2   energy= -0.0158406721413327 occ= 0
+MO #3   energy= -0.0158406686572189 occ= 0
+ ** Mulliken pop on meta-lowdin orthogonal AOs  **
+ ** Mulliken pop  **
+pop of  0 H 1s            0.66667
+pop of  1 H 1s            0.66667
+pop of  2 H 1s            0.66667
+ ** Mulliken atomic charges  **
+charge of    0H =      0.33333
+charge of    1H =      0.33333
+charge of    2H =      0.33333
+
+WARN: System has nonzero charge 1; the dipole moment is origin-dependent.
+Location of origin: [0. 0. 0.]
+
+Dipole moment(X, Y, Z, Debye): -0.00000,  0.00000,  0.00000

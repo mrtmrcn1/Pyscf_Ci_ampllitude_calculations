@@ -1,0 +1,254 @@
+System: uname_result(system='Linux', node='MertsPC', release='6.18.40.1-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026', machine='x86_64')  Threads 8
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
+numpy 2.2.0  scipy 1.14.1  h5py 3.12.1
+Date: Thu Oct 15 16:05:16 2026
+PySCF version 2.13.1
+PySCF path  /home/mert/.local/lib/python3.10/site-packages/pyscf/__init__.py
+CUDA Environment
+    CuPy 14.1.1
+    CUDA Path None
+    CUDA Build Version 12090
+    CUDA Driver Version 13010
+    CUDA Runtime Version 12090
+CUDA toolkit
+    cuSolver (11, 6, 1)
+    cuBLAS 120405
+    cuTENSOR None
+Device info
+    Device name b'NVIDIA GeForce RTX 3050 6GB Laptop GPU'
+    Device global memory 6.00 GB
+    CuPy memory fraction 0.9
+    Num. Devices 1
+GPU4PySCF 1.7.1
+GPU4PySCF path  /home/mert/.local/lib/python3.10/site-packages/gpu4pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 12
+[INPUT] num. electrons = 42
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry True subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C      0.000000000000   1.391000000000   0.000000000000 AA    0.000000000000   2.628609039270   0.000000000000 Bohr   0.0
+[INPUT]  2 C      1.205000000000   0.696000000000   0.000000000000 AA    2.277119980101   1.315249382697   0.000000000000 Bohr   0.0
+[INPUT]  3 C      1.205000000000  -0.696000000000   0.000000000000 AA    2.277119980101  -1.315249382697   0.000000000000 Bohr   0.0
+[INPUT]  4 C      0.000000000000  -1.391000000000   0.000000000000 AA    0.000000000000  -2.628609039270   0.000000000000 Bohr   0.0
+[INPUT]  5 C     -1.205000000000  -0.696000000000   0.000000000000 AA   -2.277119980101  -1.315249382697   0.000000000000 Bohr   0.0
+[INPUT]  6 C     -1.205000000000   0.696000000000   0.000000000000 AA   -2.277119980101   1.315249382697   0.000000000000 Bohr   0.0
+[INPUT]  7 H      0.000000000000   2.473000000000   0.000000000000 AA    0.000000000000   4.673292706049   0.000000000000 Bohr   0.0
+[INPUT]  8 H      2.142000000000   1.236000000000   0.000000000000 AA    4.047793358818   2.335701489962   0.000000000000 Bohr   0.0
+[INPUT]  9 H      2.142000000000  -1.236000000000   0.000000000000 AA    4.047793358818  -2.335701489962   0.000000000000 Bohr   0.0
+[INPUT] 10 H      0.000000000000  -2.473000000000   0.000000000000 AA    0.000000000000  -4.673292706049   0.000000000000 Bohr   0.0
+[INPUT] 11 H     -2.142000000000  -1.236000000000   0.000000000000 AA   -4.047793358818  -2.335701489962   0.000000000000 Bohr   0.0
+[INPUT] 12 H     -2.142000000000   1.236000000000   0.000000000000 AA   -4.047793358818   2.335701489962   0.000000000000 Bohr   0.0
+
+nuclear repulsion = 203.988867815712
+point group symmetry = D2h
+symmetry origin: [0.00000000e+00 2.11471052e-17 0.00000000e+00]
+symmetry axis x: [0. 0. 1.]
+symmetry axis y: [-1. -0. -0.]
+symmetry axis z: [0. 1. 0.]
+num. orbitals of irrep Ag = 9
+num. orbitals of irrep B1g = 1
+num. orbitals of irrep B2g = 2
+num. orbitals of irrep B3g = 6
+num. orbitals of irrep Au = 1
+num. orbitals of irrep B1u = 9
+num. orbitals of irrep B2u = 6
+num. orbitals of irrep B3u = 2
+number of shells = 24
+number of NR pGTOs = 216
+number of NR cGTOs = 36
+basis = sto-6g
+ecp = {}
+CPU time:         3.97
+
+
+******** <class 'pyscf.scf.hf_symm.SymAdaptedRHF'> ********
+method = SymAdaptedRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmphd7am6xc
+max_memory 4000 MB (current use 494 MB)
+Freeze 0 electrons in irreps []
+    42 free electrons in irreps Ag B1g B2g B3g Au B1u B2u B3u
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -232.046563906865
+HOMO (B1g) = -0.189869932468998  LUMO (Au) = 0.148580982298004
+cycle= 1 E= -230.096734692776  delta_E= 1.95  |g|= 0.281  |ddm|= 4.64
+HOMO (B1g) = -0.279752615975385  LUMO (Au) = 0.265714601914971
+cycle= 2 E= -230.128838738405  delta_E= -0.0321  |g|= 0.069  |ddm|= 0.518
+HOMO (B1g) = -0.286635898156995  LUMO (Au) = 0.259499680040464
+cycle= 3 E= -230.130912767693  delta_E= -0.00207  |g|= 0.00254  |ddm|= 0.159
+HOMO (B1g) = -0.283764927063163  LUMO (Au) = 0.262350903660381
+cycle= 4 E= -230.130915220278  delta_E= -2.45e-06  |g|= 0.000414  |ddm|= 0.00434
+HOMO (B1g) = -0.283864245330356  LUMO (Au) = 0.2622488538494
+cycle= 5 E= -230.130915300512  delta_E= -8.02e-08  |g|= 1.98e-05  |ddm|= 0.000813
+HOMO (B1g) = -0.283864377755449  LUMO (Au) = 0.262249523508155
+cycle= 6 E= -230.130915300685  delta_E= -1.73e-10  |g|= 2.8e-06  |ddm|= 4.21e-05
+HOMO (B1g) = -0.283863495678035  LUMO (Au) = 0.262250381850913
+Extra cycle  E= -230.130915300688  delta_E= -2.39e-12  |g|= 1.09e-06  |ddm|= 4.63e-06
+converged SCF energy = -230.130915300688
+**** SCF Summaries ****
+Total Energy =                        -230.130915300687604
+Nuclear Repulsion Energy =             203.988867815712297
+One-electron Energy =                 -715.384864893535450
+Two-electron Energy =                  281.265081777135549
+Wave-function symmetry = Ag
+occupancy for each irrep:     Ag  B1g  B2g  B3g   Au  B1u  B2u  B3u
+                               6    1    1    3    0    5    4    1
+**** MO energy ****
+MO #1 (Ag #1), energy= -11.1803742930018 occ= 2
+MO #2 (B1u #1), energy= -11.180159214817 occ= 2
+MO #3 (B2u #1), energy= -11.1801414487072 occ= 2
+MO #4 (Ag #2), energy= -11.1794678741444 occ= 2
+MO #5 (B3g #1), energy= -11.1794560193538 occ= 2
+MO #6 (B1u #2), energy= -11.1791450195628 occ= 2
+MO #7 (Ag #3), energy= -1.09347571675708 occ= 2
+MO #8 (B1u #3), energy= -0.958768344266399 occ= 2
+MO #9 (B2u #2), energy= -0.958621722490101 occ= 2
+MO #10 (B3g #2), energy= -0.770876574490101 occ= 2
+MO #11 (Ag #4), energy= -0.770659503438896 occ= 2
+MO #12 (Ag #5), energy= -0.665823143337128 occ= 2
+MO #13 (B1u #4), energy= -0.598384208805457 occ= 2
+MO #14 (B2u #3), energy= -0.556485665757438 occ= 2
+MO #15 (B2u #4), energy= -0.537273840737062 occ= 2
+MO #16 (B1u #5), energy= -0.537262234708423 occ= 2
+MO #17 (B3u #1), energy= -0.459790627052726 occ= 2
+MO #18 (B3g #3), energy= -0.436901946536662 occ= 2
+MO #19 (Ag #6), energy= -0.436206731321643 occ= 2
+MO #20 (B2g #1), energy= -0.284211576975573 occ= 2
+MO #21 (B1g #1), energy= -0.283863495678035 occ= 2
+MO #22 (Au #1), energy= 0.262250381850913 occ= 0
+MO #23 (B3u #2), energy= 0.262746031856697 occ= 0
+MO #24 (B2g #2), energy= 0.495687894038571 occ= 0
+MO #25 (Ag #7), energy= 0.574856599286413 occ= 0
+MO #26 (B1u #6), energy= 0.642974835387968 occ= 0
+MO #27 (B2u #5), energy= 0.643991091410797 occ= 0
+MO #28 (B1u #7), energy= 0.719513259299785 occ= 0
+MO #29 (Ag #8), energy= 0.729467404796333 occ= 0
+MO #30 (B3g #4), energy= 0.729538257263176 occ= 0
+MO #31 (B3g #5), energy= 0.877168047811842 occ= 0
+MO #32 (Ag #9), energy= 0.877622652298974 occ= 0
+MO #33 (B1u #8), energy= 0.886527229231075 occ= 0
+MO #34 (B2u #6), energy= 0.887319973305107 occ= 0
+MO #35 (B3g #6), energy= 1.07513023215056 occ= 0
+MO #36 (B1u #9), energy= 1.14385338240638 occ= 0
+ ** Mulliken pop on meta-lowdin orthogonal AOs  **
+ ** Mulliken pop  **
+pop of  0 C 1s            1.99994
+pop of  0 C 2s            1.01693
+pop of  0 C 2px           1.00664
+pop of  0 C 2py           1.01272
+pop of  0 C 2pz           1.00008
+pop of  1 C 1s            1.99994
+pop of  1 C 2s            1.01712
+pop of  1 C 2px           1.01122
+pop of  1 C 2py           1.00803
+pop of  1 C 2pz           0.99996
+pop of  2 C 1s            1.99994
+pop of  2 C 2s            1.01712
+pop of  2 C 2px           1.01122
+pop of  2 C 2py           1.00803
+pop of  2 C 2pz           0.99996
+pop of  3 C 1s            1.99994
+pop of  3 C 2s            1.01693
+pop of  3 C 2px           1.00664
+pop of  3 C 2py           1.01272
+pop of  3 C 2pz           1.00008
+pop of  4 C 1s            1.99994
+pop of  4 C 2s            1.01712
+pop of  4 C 2px           1.01122
+pop of  4 C 2py           1.00803
+pop of  4 C 2pz           0.99996
+pop of  5 C 1s            1.99994
+pop of  5 C 2s            1.01712
+pop of  5 C 2px           1.01122
+pop of  5 C 2py           1.00803
+pop of  5 C 2pz           0.99996
+pop of  6 H 1s            0.96377
+pop of  7 H 1s            0.96369
+pop of  8 H 1s            0.96369
+pop of  9 H 1s            0.96377
+pop of  10 H 1s           0.96369
+pop of  11 H 1s           0.96369
+ ** Mulliken atomic charges  **
+charge of    0C =     -0.03632
+charge of    1C =     -0.03627
+charge of    2C =     -0.03627
+charge of    3C =     -0.03632
+charge of    4C =     -0.03627
+charge of    5C =     -0.03627
+charge of    6H =      0.03623
+charge of    7H =      0.03631
+charge of    8H =      0.03631
+charge of    9H =      0.03623
+charge of   10H =      0.03631
+charge of   11H =      0.03631
+Dipole moment(X, Y, Z, Debye):  0.00000,  0.00000, -0.00000
+
+******** <class 'pyscf.mcscf.mc1step_symm.SymAdaptedCASSCF'> ********
+CAS (3e+3e, 6o), ncore = 18, nvir = 12
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmphd7am6xc
+max_memory 4000 MB (current use 516 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1_symm.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CI wfn symmetry = None
+Symmetries of active orbitals: B3u B2g B1g Au B3u B2g
+Active space CI wfn symmetry = Ag
+CASCI E = -230.237633454867  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 (  3 JK    1 micro), CASSCF E = -230.237641591257  dE = -8.13638960e-06  S^2 = 0.0000000
+               |grad[o]|=0.00521  |grad[c]|=4e-05  |ddm|=7.59e-05  |maxRot[o]|=0.000738
+macro iter   2 (  1 JK    1 micro), CASSCF E = -230.237641591313  dE = -5.68149972e-11  S^2 = 0.0000000
+               |grad[o]|=1.2e-05  |grad[c]|=7.28e-06  |ddm|=1.03e-05  |maxRot[o]|=    0
+1-step CASSCF converged in   2 macro (  4 JK   2 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.94101051 1.86099463 1.86054644 0.14024433 0.13979585 0.05740824]
+CASSCF energy = -230.237641591313
+CASCI E = -230.237641591313  E(CI) = -6.48640447572234  S^2 = 0.0000000
